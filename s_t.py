@@ -5,7 +5,7 @@ from streamlit_bokeh_events import streamlit_bokeh_events
 
 st.title("Interfaces Multimodales Audio y Texto")
 
-st.write("Interfaz de Audio a texto")
+st.write("Interfaz de texto a Audio")
 text = st.text_input("Que decir?")
 
 tts_button = Button(label="Decirlo", width=100)
